@@ -12,7 +12,7 @@ lint:
 	.venv/bin/pylama
 
 run:
-	.venv/bin/python -m app
+	.venv/bin/python -m myapp
 
 package:
 	rm -rf build dist

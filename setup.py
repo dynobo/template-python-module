@@ -1,6 +1,6 @@
 # Standard
 from setuptools import setup, find_packages
-import app.configs as configs
+import myapp.configs as configs
 
 with open("README.md") as f:
     readme = f.read()
@@ -18,7 +18,7 @@ setup(
     license="MIT License",
     packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    entry_points={"console_scripts": ["app=app.__main__:run"]},
+    entry_points={"console_scripts": ["myapp=myapp.__main__:run"]},
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: MIT License",

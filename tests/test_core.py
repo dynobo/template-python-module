@@ -1,7 +1,7 @@
 # Own
-from .context import app
+from .context import myapp
 
 
 def test_core_return_code():
     """Does the program quit correctely?"""
-    assert app.main() == 0
+    assert myapp.main() == 0

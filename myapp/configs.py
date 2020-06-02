@@ -1,13 +1,15 @@
 MODULE = {
-    "name": "app",
+    "name": "myapp",
     "author": "dynobo",
     "email": "dynobo@mailbox.org",
-    "repo": "https://github.com/dynobo/app",
+    "repo": "https://github.com/dynobo/myapp",
     "version": "0.1.0",
 }
 
 LOGGING = {
-    "loggers": {"app": {"level": "INFO", "propagate": False, "handlers": ["console"]}},
+    "loggers": {
+        "myapp": {"level": "INFO", "propagate": False, "handlers": ["console"]}
+    },
     "version": 1,
     "disable_existing_loggers": True,
     "handlers": {

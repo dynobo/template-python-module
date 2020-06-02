@@ -1,7 +1,7 @@
 # Own
-from .context import app
+from .context import myapp
 
 
 def test_helpers_get_something():
     """Does the function retrieve what's expected?"""
-    assert app.helpers.get_something() == "Hello You!"
+    assert myapp.helpers.get_something() == "Hello You!"
