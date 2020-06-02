@@ -1,12 +1,29 @@
-
+# Import productive requirements
 -r requirements-prod.txt
+
+# Publish
+twine
+
+# Tests
 pytest
 pytest-cov
-flake8
-isort
-mypy
 pre-commit
-rope 
+tox
+
+# Linters
+mypy
+pylint
+pyflakes
+pydocstyle
+eradicate
+radon
+pylama
+
+# Autoformat
 black
+isort
+
+# Refactor
+rope 
 bumpversion
-twine
+
