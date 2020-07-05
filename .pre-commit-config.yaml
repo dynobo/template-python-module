@@ -6,14 +6,14 @@ repos:
         name: pylint
         stages: [commit]
         language: system
-        entry: .venv/bin/pylint
+        entry: .venv/bin/pylint --disable=C --disable=R myapp
         types: [python]
       - id: mypy
         name: mypy
         stages: [commit]
         language: system
         entry: .venv/bin/mypy
-        types: [python]     
+        types: [python]
       - id: pytest
         name: pytest
         stages: [commit]
