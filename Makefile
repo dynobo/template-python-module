@@ -9,7 +9,7 @@ test:
 	.venv/bin/pytest tests
 
 lint:
-	.venv/bin/pylama
+	.venv/bin/pylint
 
 run:
 	.venv/bin/python -m myapp

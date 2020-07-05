@@ -13,11 +13,9 @@ tox
 # Linters
 mypy
 pylint
-pyflakes
+flake8
 pydocstyle
-eradicate
 radon
-pylama
 
 # Autoformat
 black
