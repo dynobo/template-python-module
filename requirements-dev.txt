@@ -1,27 +1,29 @@
 # Import productive requirements
 -r requirements-prod.txt
 
+# Deps
+colorama==0.4.1
+
 # Publish
-twine
+twine==3.1.1
 
 # Tests
-pytest
-pytest-cov
-pre-commit
-tox
+pytest==5.4.3
+pytest-cov==2.10.0
+pre-commit==2.6.0
+tox==3.16.1
 
 # Linters
-mypy
-pylint
-flake8
-pydocstyle
-radon
+mypy==0.782
+pylint==2.5.3
+flake8==3.8.3
+pydocstyle==5.0.2
+radon==4.0.0
 
 # Autoformat
-black
-isort
+black==19.10b0
+isort==4.2.5
 
 # Refactor
-rope 
-bumpversion
-
+rope==0.17.0
+bumpversion==0.6.0

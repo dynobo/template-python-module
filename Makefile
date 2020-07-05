@@ -9,8 +9,8 @@ test:
 	.venv/bin/pytest tests
 
 lint:
-	.venv/bin/pylint
-
+	.venv/bin/pylint myapp
+ 
 run:
 	.venv/bin/python -m myapp
 
