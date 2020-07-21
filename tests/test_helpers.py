@@ -1,5 +1,5 @@
 # Own
-import myapp
+import myapp.helpers
 
 
 def test_helpers_get_something():

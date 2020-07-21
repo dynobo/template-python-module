@@ -1,7 +1,7 @@
 # Own
-import myapp
+import myapp.core
 
 
 def test_core_return_code():
     """Does the program quit correctely?"""
-    assert myapp.main() == 0
+    assert myapp.core.main() == 0
