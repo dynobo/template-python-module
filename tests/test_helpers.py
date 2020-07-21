@@ -1,3 +1,5 @@
+"""Tests for helper functions of myapp."""
+
 # Own
 import myapp.helpers
 

@@ -1,3 +1,5 @@
+"""Main logic of myapp."""
+
 # Standard
 import logging
 import logging.config
@@ -10,6 +12,7 @@ from . import configs
 
 
 def main():
+    """Start main routine."""
     logging.config.dictConfig(configs.LOGGING)
     logger = logging.getLogger(__name__)
     logger.info("Starting v%s ...", configs.MODULE["version"])

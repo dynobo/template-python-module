@@ -8,6 +8,12 @@ repos:
         language: system
         entry: .venv/bin/pylint --disable=C --disable=R myapp
         types: [python]
+      - id: flake8
+        name: flake8
+        stages: [commit]
+        language: system
+        entry: .venv/bin/flake8
+        types: [python]
       - id: mypy
         name: mypy
         stages: [commit]

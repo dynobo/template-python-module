@@ -1,3 +1,7 @@
+"""Provides all configurations in one place."""
+
+# pylint: disable=C0301 # line-to-long
+
 MODULE = {
     "name": "myapp",
     "author": "dynobo",
@@ -33,7 +37,7 @@ LOGGING = {
     "formatters": {
         "standard": {
             "datefmt": "%H:%M:%S",
-            "format": "[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s",  # noqa: longline okay
+            "format": "[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s",  # noqa
         }
     },
 }

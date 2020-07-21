@@ -1,3 +1,5 @@
+"""Tests for main functionality of myapp."""
+
 # Own
 import myapp.core
 

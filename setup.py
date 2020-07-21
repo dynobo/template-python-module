@@ -1,3 +1,5 @@
+"""Python module installation info."""
+
 # Standard
 from setuptools import setup, find_packages
 import myapp.configs as configs
