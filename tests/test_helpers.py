@@ -1,5 +1,5 @@
 # Own
-from .context import myapp
+import myapp
 
 
 def test_helpers_get_something():

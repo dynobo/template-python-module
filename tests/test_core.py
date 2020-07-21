@@ -1,5 +1,5 @@
 # Own
-from .context import myapp
+import myapp
 
 
 def test_core_return_code():
